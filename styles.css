@@ -1,0 +1,23 @@
+.pxpay-enrol-instance input#id_submitbutton {
+    width: 250px;
+    height: 70px;
+    border: none;
+    background-image: url('[[pix:enrol_paymentexpress|paynow-red]]');
+    background-color: transparent;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pxpay-enrol-instance input#id_submitbutton:hover,
+.pxpay-enrol-instance input#id_submitbutton:focus {
+    background-position: top;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}

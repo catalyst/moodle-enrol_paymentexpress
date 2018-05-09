@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<libraries>
+    <library>
+        <location>extlib</location>
+        <name>PxPay Curl</name>
+        <license>GPL</license>
+        <version>3+</version>
+        <licenseversion></licenseversion>
+    </library>
+</libraries>
