@@ -21,3 +21,10 @@
     margin: 0;
     outline: none;
 }
+
+.pxpay-enrol-instance input#id_submitbutton:active,
+.pxpay-enrol-instance input#id_submitbutton:active:hover {
+    background-image: url('[[pix:enrol_paymentexpress|paynow-red]]');
+    background-color: transparent;
+    box-shadow: none;
+}
