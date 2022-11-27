@@ -183,6 +183,7 @@ class helper {
             $a->courseurl = "{$CFG->wwwroot}/course/view.php?id={$course->id}";
             $a->cost = format_float($instance->cost, 2, true);
             $a->currency = $instance->currency;
+            $a->userfullname = fullname($user);
 
             $eventdata = new \core\message\message();
             $eventdata->courseid          = $course->id;
