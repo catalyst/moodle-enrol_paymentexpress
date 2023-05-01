@@ -3,8 +3,6 @@
 # Payment Express enrolments for Moodle
 > Course enrolments via PxPay 2.0 payment gateway
 
-[![Build Status](https://travis-ci.org/catalyst/moodle-enrol_paymentexpress.svg?branch=master)](https://travis-ci.org/catalyst/moodle-enrol_paymentexpress)
-
 This Moodle enrolment plugin gives the course administrator the ability to
 set up courses where payment is required by learners in order to gain access
 to the course. Payments are handled securely by the Payment Express payment gateway,
@@ -26,7 +24,7 @@ configure the default settings for this plugins.
 
 You're now ready to add this enrolment method to relevant courses.
 
-## Contributing and development <3
+## Contributing and development
 
 If you'd like to contribute, please fork the repository and use a feature
 branch. Pull requests are warmly welcome!

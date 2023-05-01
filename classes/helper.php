@@ -269,12 +269,7 @@ class helper {
 
 
     public static function get_pxpay_url() {
-        global $CFG;
-
-        if (empty($CFG->debugpxpay)) {
-            return "https://sec.paymentexpress.com/pxaccess/pxpay.aspx";
-        } else {
-            return 'https://uat.paymentexpress.com/pxaccess/pxpay.aspx';
-        }
+        // Windcave has a single API endpoint.
+        return "https://sec.windcave.com/pxaccess/pxpay.aspx";
     }
 }
