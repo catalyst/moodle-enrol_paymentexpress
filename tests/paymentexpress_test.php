@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 
-class enrol_paymentexpress_testcase extends advanced_testcase {
+class enrol_paymentexpress_paymentexpress_test extends \core_phpunit\testcase {
 
     protected function enable_plugin() {
         $enabled = enrol_get_plugins(true);
