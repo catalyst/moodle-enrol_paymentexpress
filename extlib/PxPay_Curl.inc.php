@@ -347,9 +347,9 @@ class PxPayMessage {
 		$arr = get_object_vars($this);
 
 		$xml  = "<GenerateRequest>";
-    	while (list($prop, $val) = each($arr))
-        	$xml .= "<$prop>$val</$prop>" ;
-
+        foreach ($arr as $prop => $val) {
+            $xml .= "<$prop>$val</$prop>";
+        }
 		$xml .= "</GenerateRequest>";
 		return $xml;
 	}
