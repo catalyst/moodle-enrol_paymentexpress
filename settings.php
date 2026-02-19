@@ -32,6 +32,8 @@ if ($ADMIN->fulltree) {
     $settings->add(new admin_setting_configtext('enrol_paymentexpress/pxpayuserid', get_string('pxpayuserid', 'enrol_paymentexpress'), '', '', PARAM_TEXT));
     $settings->add(new admin_setting_configtext('enrol_paymentexpress/pxpaykey', get_string('pxpaykey', 'enrol_paymentexpress'), '', '', PARAM_TEXT));
 
+    $settings->add(new admin_setting_configtext('enrol_paymentexpress/pxpayurl', get_string('pxpayurl', 'enrol_paymentexpress'), '', 'https://sec.windcave.com/pxaccess/pxpay.aspx', PARAM_URL));
+
     $settings->add(new admin_setting_configcheckbox('enrol_paymentexpress/mailstudents', get_string('mailstudents', 'enrol_paymentexpress'), '', 0));
 
     $settings->add(new admin_setting_configcheckbox('enrol_paymentexpress/mailteachers', get_string('mailteachers', 'enrol_paymentexpress'), '', 0));

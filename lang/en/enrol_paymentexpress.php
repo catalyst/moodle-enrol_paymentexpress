@@ -58,6 +58,7 @@ $string['paymentsuccess'] = 'Payment successful!';
 $string['paynow'] = 'Pay now';
 $string['pluginname'] = 'Payment Express';
 $string['pluginname_desc'] = 'The Payment Express module allows you to set up paid courses.  If the cost for any course is zero, then students are not asked to pay for entry.  There is a site-wide cost that you set here as a default for the whole site and then a course setting that you can set for each course individually. The course cost overrides the site cost.';
+$string['pxpayurl'] = 'Payment express URL';
 $string['pxpayuserid'] = 'PxPay username';
 $string['pxpaykey'] = 'PxPay key';
 $string['status'] = 'Allow Payment Express enrolments';
