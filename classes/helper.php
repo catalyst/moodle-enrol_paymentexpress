@@ -270,6 +270,6 @@ class helper {
 
     public static function get_pxpay_url() {
         // Windcave has a single API endpoint.
-        return "https://sec.windcave.com/pxaccess/pxpay.aspx";
+        return get_config('enrol_paymentexpress', 'pxpayurl') ?: "https://sec.windcave.com/pxaccess/pxpay.aspx";
     }
 }
